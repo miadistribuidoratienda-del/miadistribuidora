@@ -84,4 +84,11 @@ const STOCK = {
   "serumtratamientocapilartresemme": 1,
   "doveacnecontrol": 1,
   "fructisgarnier": 1,
+  "mascarillabubaluufrutas": 1,
+  "biotinapura": 1,
+  "nutripro": 1,
+  "yummygelato": 1,
+  "aguamicelaralgabo": 1,
+  "balsamodurazno": 1,
+  "panoramaloreal": 1,
 };
