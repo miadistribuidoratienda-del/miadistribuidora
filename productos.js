@@ -940,7 +940,7 @@ const PRODUCTOS = [
     precio: 4500,
     categorias: ["skincare"],
     imagen: "imagenes/mascarillasbubaluu.jpeg",
-    imagenAlt: ["imagenes/mascarillasbubaluu.png", "imagenes/mascarillasbubaluu.JPG", "imagenes/fructisgarnier.JPEG", "imagenes/fructisgarnier.webp"],
+    imagenAlt: ["imagenes/mascarillasbubaluu.png", "imagenes/mascarillasbubaluu.JPG"],
     descripcion: "",
     detalles: [],
     variante: { nombre: "Tipo", opciones: ["Sandia", "Piña", "Multifruta"] },
