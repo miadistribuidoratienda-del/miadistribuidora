@@ -934,6 +934,102 @@ const PRODUCTOS = [
     variante: null,
   },
 
+{
+    id: "mascarillabubaluufrutas",
+    nombre: "Mascarillas Frutales Bubbaluu",
+    precio: 4500,
+    categorias: ["skincare"],
+    imagen: "imagenes/mascarillasbubaluu.jpeg",
+    imagenAlt: ["imagenes/mascarillasbubaluu.png", "imagenes/mascarillasbubaluu.JPG", "imagenes/fructisgarnier.JPEG", "imagenes/fructisgarnier.webp"],
+    descripcion: "",
+    detalles: [],
+    variante: { nombre: "Tipo", opciones: ["Sandia", "Piña", "Multifruta"] },
+  },
+
+{
+    id: "biotinapura",
+    nombre: "Biotina Pura MD",
+    precio: 12000,
+    categorias: ["capilares"],
+    imagen: "imagenes/biotinapura.jpeg",
+    imagenAlt: ["imagenes/biotinapura.png", "imagenes/biotinapura.JPG", "imagenes/fructisgarnier.JPEG", "imagenes/fructisgarnier.webp"],
+    descripcion: "",
+    detalles: [],
+    variante: null,
+  },
+
+{
+    id: "nutripro",
+    nombre: "Nutripro MD",
+    precio: 6500,
+    categorias: ["capilares"],
+    imagen: "imagenes/nutripro.jpeg",
+    imagenAlt: ["imagenes/nutripro.png", "imagenes/nutripro.JPG", "imagenes/fructisgarnier.JPEG", "imagenes/fructisgarnier.webp"],
+    descripcion: "",
+    detalles: [],
+    variante: null,
+  },
+
+{
+    id: "oleocristalliquido",
+    nombre: "Oleo Cristal Liquido RoubaiX",
+    precio: 6500,
+    categorias: ["capilares"],
+    imagen: "imagenes/oleocristalliquido.jpeg",
+    imagenAlt: ["imagenes/oleocristalliquido.png", "imagenes/oleocristalliquido.JPG", "imagenes/fructisgarnier.JPEG", "imagenes/fructisgarnier.webp"],
+    descripcion: "",
+    detalles: [],
+    variante: null,
+  },
+
+{
+    id: "yummygelato",
+    nombre: "Yummy Gelato o Choco",
+    precio: 19500,
+    categorias: ["skincare"],
+    imagen: "imagenes/yummygelato.jpeg",
+    imagenAlt: ["imagenes/yummygelato.png", "imagenes/yummygelato.JPG", "imagenes/fructisgarnier.JPEG", "imagenes/fructisgarnier.webp"],
+    descripcion: "",
+    detalles: [],
+    variante: { nombre: "Tipo", opciones: ["Gelato", "Choco"] },
+  },
+
+{
+    id: "aguamicelaralgabo",
+    nombre: "Agua Micelar Algabo",
+    precio: 4500,
+    categorias: ["skincare"],
+    imagen: "imagenes/aguamicelaralgabo.jpeg",
+    imagenAlt: ["imagenes/aguamicelaralgabo.png", "imagenes/aguamicelaralgabo.JPG", "imagenes/fructisgarnier.JPEG", "imagenes/fructisgarnier.webp"],
+    descripcion: "",
+    detalles: [],
+    variante: null,
+  },
+
+{
+    id: "balsamodurazno",
+    nombre: "Balsamo Durazno Bubbaluu",
+    precio: 4500,
+    categorias: ["maquillaje"],
+    imagen: "imagenes/balsamoduraznobubbaluu.jpeg",
+    imagenAlt: ["imagenes/balsamoduraznobubbaluu.png", "imagenes/balsamoduraznobubbaluu.JPG", "imagenes/fructisgarnier.JPEG", "imagenes/fructisgarnier.webp"],
+    descripcion: "",
+    detalles: [],
+    variante: null,
+  },
+
+{
+    id: "panoramaloreal",
+    nombre: "Mascara de Pestañas Panorama Loreal Paris",
+    precio: 25000,
+    categorias: ["maquillaje"],
+    imagen: "imagenes/panoramalorealparis.jpeg",
+    imagenAlt: ["imagenes/balsamoduraznobubbaluu.png", "imagenes/balsamoduraznobubbaluu.JPG", "imagenes/fructisgarnier.JPEG", "imagenes/fructisgarnier.webp"],
+    descripcion: "",
+    detalles: [],
+    variante: null,
+  },
+   
   /* EJEMPLO con variantes (maquillaje). Para usarlo, borrá esta línea y la de cierre:
   {
     id: "base-ejemplo",
