@@ -13,8 +13,8 @@
    ============================================================ */
 
 const STOCK = {
-  "cicaplast-baume": 1, // Bálsamo Cicaplast La Roche Posay Baume
-  "celimax-sun-stick": 1, // Protector Solar en Barra Celimax Oil Control
+  "cicaplast-baume": 0, // Bálsamo Cicaplast La Roche Posay Baume
+  "celimax-sun-stick": 0, // Protector Solar en Barra Celimax Oil Control
   "cerave-locion-intensiva": 1, // Loción de Hidratación Intensiva CeraVe
   "aveno-jabon-diario": 1, // Jabón de Uso Diario Aveno
   "protector-solar-dermaglos-50g-or-fps-50": {"Fluido Invisible (sin color)": 1, "Fluido con Color (Tono 1)": 1}, // Protector Solar Dermaglos 50g - FPS 50
