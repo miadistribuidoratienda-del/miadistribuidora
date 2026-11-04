@@ -69,13 +69,13 @@ const STOCK = {
   "barra-cerave-stick-solar-invisible": 1, // Barra CeraVe Stick Solar Invisible
 
   // ---- Productos nuevos (todavía sin stock) ----
-  "lipfillerrevox": 1,
+  "lipfillerrevox": 0,
   "jabonuniformskindove": 1,
   "aguamicelarlimpiadoracerave": 1,
   "serumpurevitaminc10": 1,
   "serumretinolb3laroche": 1,
-  "serumhyalub5laroche": 1,
-  "crematoleriane": 1,
+  "serumhyalub5laroche": 0,
+  "crematoleriane": 0,
   "cremamelab3laroche": 1,
   "balsamocicaplastreparador": 1,
   "gelhidrataciondiariadermaglos": 1,
