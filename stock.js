@@ -16,7 +16,7 @@ const STOCK = {
   "cicaplast-baume": 1, // Bálsamo Cicaplast La Roche Posay Baume
   "celimax-sun-stick": 1, // Protector Solar en Barra Celimax Oil Control
   "cerave-locion-intensiva": 1, // Loción de Hidratación Intensiva CeraVe
-  "aveno-jabon-diario": 1, // Jabón de Uso Diario Aveno
+  "aveno-jabon-diario": 0, // Jabón de Uso Diario Aveno
   "protector-solar-dermaglos-50g-or-fps-50": {"Fluido Invisible (sin color)": 1, "Fluido con Color (Tono 1)": 1}, // Protector Solar Dermaglos 50g - FPS 50
   "gel-booster-facial-medicube-300-ml": 1, // Gel Booster Facial Medicube 300 ml
   "sedum-facial-medicube-retinol": 1, // Sérum Facial Medicube Retinol
@@ -59,11 +59,11 @@ const STOCK = {
   "gel-limpieza-profunda-loreal-paris": 1, // Gel Limpieza Profunda L'Oréal Paris
   "glass-skin-crema-liquida-loreal-paris": 1, // Glass Skin Crema Liquida L'Oréal Paris
   "barra-antitranspirante-coconut-secret-x-45-gr": 1, // Barra Antitranspirante Coconut Secret x 45 gr
-  "fotoprotector-uv-water-isdin-fps-50": 1, // Fotoprotector UV ISDIN FPS 50
+  "fotoprotector-uv-water-isdin-fps-50": 0, // Fotoprotector UV ISDIN FPS 50
   "protector-invisible-vichy-fps-50-fluido-hidratante": 1, // Protector Invisible Vichy FPS 50 Fluido Hidratante
   "protector-fluido-invisible-cerave-fps-50-x-50-ml": 1, // Protector Fluido Invisible CeraVe FPS 50 x 50 ml
-  "protector-solar-facial-aveno-fps-50-x-50-gr": 1, // Protector Solar Facial Aveno FPS 50 x 50 gr
-  "protector-solar-uv-sport-la-roche-posay-fps-50": 1, // Protector Solar UV Sport La Roche Posay FPS 50
+  "protector-solar-facial-aveno-fps-50-x-50-gr": 0, // Protector Solar Facial Aveno FPS 50 x 50 gr
+  "protector-solar-uv-sport-la-roche-posay-fps-50": 0, // Protector Solar UV Sport La Roche Posay FPS 50
   "protector-solar-facial-con-color-fps-45-bagovit": 1, // Protector Solar Facial con Color FPS 45 Bagovit
   "tratamiento-capiral-repair-absolute-loreal-paris": 1, // Tratamiento Capilar Repair Absolute L'Oréal Paris
   "barra-cerave-stick-solar-invisible": 1, // Barra CeraVe Stick Solar Invisible
