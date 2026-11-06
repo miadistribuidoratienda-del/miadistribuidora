@@ -38,7 +38,7 @@ const PRODUCTOS = [
     nombre: "Bálsamo Cicaplast La Roche Posay Baume",
     precio: 55000,
     categorias: ["skincare"],
-    imagen: "imagenes/cicaplast.jpeg",
+    imagen: "miadistribuidora/imagenes/cicaplast.jpeg",
     imagenAlt: ["imagenes/cicaplast.jpg", "imagenes/Cicaplast.jpeg", "imagenes/Cicaplast.jpg", "imagenes/cicaplast.JPG", "imagenes/cicaplast.JPEG", "imagenes/cicaplast.png", "imagenes/cicaplast.webp"],
     descripcion: "Bálsamo reparador de La Roche-Posay para calmar y proteger la piel sensibilizada o irritada.",
     detalles: [
