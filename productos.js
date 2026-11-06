@@ -20,7 +20,7 @@ const PRODUCTOS = [
     nombre: "Protector Solar Corporal Dermaglós",
     precio: 19000,
     categorias: ["skincare", "protectores-solares"],
-    imagen: "miadistribuidora/imagenes/protectorsolardermaglos.jpeg",
+    imagen: "imagenes/protectorsolardermaglos.jpeg",
     descripcion: "Protector solar corporal FPS 50 con protección alta contra rayos UVB y UVA. Hidrata con vitamina E y es apto para piel sensible.",
     detalles: [
       "Protección alta FPS 50 (UVB y UVA)",
@@ -38,7 +38,7 @@ const PRODUCTOS = [
     nombre: "Bálsamo Cicaplast La Roche Posay Baume",
     precio: 55000,
     categorias: ["skincare"],
-    imagen: "miadistribuidora/imagenes/cicaplast.jpeg",
+    imagen: "imagenes/cicaplast.jpeg",
     imagenAlt: ["imagenes/cicaplast.jpg", "imagenes/Cicaplast.jpeg", "imagenes/Cicaplast.jpg", "imagenes/cicaplast.JPG", "imagenes/cicaplast.JPEG", "imagenes/cicaplast.png", "imagenes/cicaplast.webp"],
     descripcion: "Bálsamo reparador de La Roche-Posay para calmar y proteger la piel sensibilizada o irritada.",
     detalles: [
@@ -58,7 +58,7 @@ const PRODUCTOS = [
     nombre: "Protector Solar en Barra Celimax Oil Control",
     precio: 45000,
     categorias: ["skincare", "protectores-solares"],
-    imagen: "miadistribuidora/imagenes/sunstickcelimax.jpeg",
+    imagen: "imagenes/sunstickcelimax.jpeg",
     descripcion: "Protector solar en barra de Celimax con efecto mate, pensado para piel mixta o grasa. Fácil de aplicar y de llevar a todos lados.",
     detalles: [
       "FPS 50+ / PA++++",
@@ -73,7 +73,7 @@ const PRODUCTOS = [
     nombre: "Protector Solar Bagovit Solar Emulsión Hidratante",
     precio: 18000,
     categorias: ["skincare", "protectores-solares"],
-    imagen: "miadistribuidora/imagenes/bagovitsolar.jpeg",
+    imagen: "imagenes/bagovitsolar.jpeg",
     descripcion: "Emulsión hidratante de textura liviana con protección solar alta contra rayos UV-B y UV-A. Disponible en FPS 30 y FPS 50.",
     detalles: [
       "Protección solar alta UV-B y UV-A",
@@ -90,7 +90,7 @@ const PRODUCTOS = [
     nombre: "Crema Mate-Iluminadora L'Oréal Paris Glycolic-Bright",
     precio: 35000,
     categorias: ["skincare"],
-    imagen: "miadistribuidora/imagenes/GlycolicBrightLoreal.jpeg",
+    imagen: "imagenes/glycolicbrightloreal.jpeg",
     descripcion: "Crema facial con acabado mate que ilumina la piel. Combina Melasyl y ácido glicólico para ayudar a reducir las manchas.",
     detalles: [
       "Con Melasyl y ácido glicólico",
