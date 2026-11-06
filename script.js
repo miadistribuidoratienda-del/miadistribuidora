@@ -24,7 +24,7 @@ function fotoFalla(img) {
   const n = Number(img.dataset.n || 0);
   if (n < lista.length) { img.dataset.n = n + 1; img.src = lista[n]; return; }
   img.onerror = null;
-  img.src = "imagenes/LogoMiaDistribuidora.png";
+  img.src = "imagenes/logomiadistribuidora.png";
   img.classList.add("sin-foto");
 }
 const imgAttrs = (p) => {
@@ -71,7 +71,7 @@ $("#layout-top").outerHTML = `
     <button class="btn-icono" id="abrirMenu" aria-label="Abrir menú" aria-expanded="false">
       <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
     </button>
-    <a href="index.html" class="logo" aria-label="Mia Distribuidora, ir al inicio"><img src="imagenes/LogoMiaDistribuidora.png" alt="Mia Distribuidora"></a>
+    <a href="index.html" class="logo" aria-label="Mia Distribuidora, ir al inicio"><img src="imagenes/logomiadistribuidora.png" alt="Mia Distribuidora"></a>
     <button class="btn-icono btn-carrito" id="abrirCarrito" aria-label="Abrir carrito">
       <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.6 12.4a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L21 7H6"/></svg>
       <span class="contador" id="contador">0</span>
@@ -89,7 +89,7 @@ $("#layout-top").outerHTML = `
 
   <nav class="menu" id="menu" aria-label="Menú principal" aria-hidden="true">
     <div class="panel-cabecera">
-      <img src="imagenes/LogoMiaDistribuidora.png" alt="Mia Distribuidora" class="menu-logo">
+      <img src="imagenes/logomiadistribuidora.png" alt="Mia Distribuidora" class="menu-logo">
       <button class="btn-icono" id="cerrarMenu" aria-label="Cerrar menú">${ICONO_X}</button>
     </div>
     <ul class="menu-lista">
@@ -231,7 +231,7 @@ function dibujarCarrito() {
     li.className = "carrito-item";
     const prod = PRODUCTOS.find((x) => x.id === item.id);
     li.innerHTML = `
-      <img src="${prod ? prod.imagen : item.imagen}" alt="" ${prod ? imgAttrs(prod) : `onerror="this.onerror=null;this.src='imagenes/LogoMiaDistribuidora.png'"`}>
+      <img src="${prod ? prod.imagen : item.imagen}" alt="" ${prod ? imgAttrs(prod) : `onerror="this.onerror=null;this.src='imagenes/logomiadistribuidora.png'"`}>
       <div>
         <h4>${item.nombre}${item.variante ? `<small>${item.variante}</small>` : ""}</h4>
         <span class="precio">${formatoPrecio(item.precio * item.cantidad)}</span>
