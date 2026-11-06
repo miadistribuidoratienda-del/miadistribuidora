@@ -39,7 +39,7 @@ const PRODUCTOS = [
     precio: 55000,
     categorias: ["skincare"],
     imagen: "imagenes/cicaplast.jpeg",
-    imagenAlt: ["imagenes/cicaplast.jpg", "imagenes/Cicaplast.jpeg", "imagenes/Cicaplast.jpg", "imagenes/cicaplast.JPG", "imagenes/cicaplast.JPEG", "imagenes/cicaplast.png", "imagenes/cicaplast.webp"],
+    imagenalt: ["imagenes/cicaplast.jpg", "imagenes/cicaplast.jpeg", "imagenes/cicaplast.jpg", "imagenes/cicaplast.jpg", "imagenes/cicaplast.jpeg", "imagenes/cicaplast.png", "imagenes/cicaplast.webp"],
     descripcion: "Bálsamo reparador de La Roche-Posay para calmar y proteger la piel sensibilizada o irritada.",
     detalles: [
       "Textura rica y reconfortante",
@@ -106,7 +106,7 @@ const PRODUCTOS = [
     nombre: "Loción de Hidratación Intensiva CeraVe",
     precio: 32000,
     categorias: ["skincare"],
-    imagen: "miadistribuidora/imagenes/LocionIntensivaCeraVe.jpeg",
+    imagen: "imagenes/locionintensivacerave.jpeg",
     descripcion: "Loción para piel muy seca e irritada. Ayuda a restaurar la barrera cutánea, hidrata de manera continua y suaviza el picor causado por la sequedad.",
     detalles: [
       "Con 3 ceramidas esenciales y manteca de karité",
@@ -123,7 +123,7 @@ const PRODUCTOS = [
     nombre: "Jabón de Uso Diario Aveno",
     precio: 12000,
     categorias: ["skincare"],
-    imagen: "miadistribuidora/imagenes/JabonAveno.jpeg",
+    imagen: "imagenes/jabonaveno.jpeg",
     descripcion: "Jabón de uso diario con extracto de avena sativa, pensado para el balance natural de las pieles sensibles.",
     detalles: [
       "Con extracto de avena sativa",
@@ -146,7 +146,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/ProtectorSolarDermaglos50gFPS50.jpeg",
+    imagen: "imagenes/protectorsolardermaglos50gfps50.jpeg",
     descripcion: "Protector Solar de alta calidad",
     detalles: [
       "Marca: Dermaglos",
@@ -169,7 +169,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/ProtectorSolarISDINCOLORFPS50.jpeg",
+    imagen: "imagenes/protectorsolarisdincolorfps50.jpeg",
     descripcion: "",
     detalles: [],
     variante: {
@@ -188,7 +188,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/ProtectorSolarRostroLaRochePosayFPS5050ml.jpeg",
+    imagen: "imagenes/protectorsolarrostrolarocheposayfps5050ml.jpeg",
     descripcion: "Ayuda a prevenir los daños celulares",
     detalles: [
       "Accion antioxidante contra IR-A",
@@ -211,7 +211,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/ProtectorSolarAntiManchasLaRochePosayFPS50.jpeg",
+    imagen: "imagenes/protectorsolarantimanchaslarocheposayfps50.jpeg",
     descripcion: "Protector Antimanchas sin perfume",
     detalles: [
       "Peso: 50g",
@@ -227,7 +227,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/GelBoosterFacialMedicube300Ml.jpeg",
+    imagen: "imagenes/gelboosterfacialmedicube300ml.jpeg",
     descripcion: "Gel facial coreano de gran formato formulado para hidratar, reafirmar y mejorar la elasticidad de la piel",
     detalles: [],
     variante: null,
@@ -240,7 +240,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/SerumFacialMedicubeRetinol.jpeg",
+    imagen: "imagenes/serumfacialmedicuberetinol.jpeg",
     descripcion: "Un potente sérum facial antiedad de 30 ml diseñado para mejorar la textura de la piel, reducir líneas de expresión, marcas de acné y unificar el tono",
     detalles: [],
     variante: null,
@@ -253,7 +253,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/CollagenJellyCreamMedicure110Ml.jpeg",
+    imagen: "imagenes/collagenjellycreammedicure110ml.jpeg",
     descripcion: "Una crema hidratante coreana con textura tipo gel transparente que busca aportar elasticidad, firmeza y un acabado luminoso",
     detalles: [],
     variante: null,
@@ -265,7 +265,7 @@ const PRODUCTOS = [
     categorias: [
       "perfumes"
     ],
-    imagen: "miadistribuidora/imagenes/SprayAllBodyMayar150Ml.jpeg",
+    imagen: "imagenes/sprayallbodymayar150ml.jpeg",
     descripcion: "Una bruma aromática ligera y refrescante creada para el cuerpo, el cabello y la ropa.",
     detalles: [],
     variante: null,
@@ -278,7 +278,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/BoosterProMedicubeMiniPink.jpeg",
+    imagen: "imagenes/boosterpromedicubeminipink.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -290,7 +290,7 @@ const PRODUCTOS = [
     categorias: [
       "maquillaje"
     ],
-    imagen: "miadistribuidora/imagenes/CorrectorDeOrejasRimmel7Ml.jpeg",
+    imagen: "imagenes/correctordeorejasrimmel7ml.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -302,7 +302,7 @@ const PRODUCTOS = [
     categorias: [
       "maquillaje"
     ],
-    imagen: "miadistribuidora/imagenes/CorrectorRimmelMatchPerfectionX30Ml.jpeg",
+    imagen: "imagenes/correctorrimmelmatchperfectionx30ml.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -314,7 +314,7 @@ const PRODUCTOS = [
     categorias: [
       "maquillaje"
     ],
-    imagen: "miadistribuidora/imagenes/ContornoMaybellineLifterStix.jpeg",
+    imagen: "imagenes/contornomaybellinelifterstix.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -327,7 +327,7 @@ const PRODUCTOS = [
     categorias: [
       "maquillaje"
     ],
-    imagen: "miadistribuidora/imagenes/LabialRevlonColorstayLimitlessMatte.jpeg",
+    imagen: "imagenes/labialrevloncolorstaylimitlessmatte.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -340,7 +340,7 @@ const PRODUCTOS = [
     categorias: [
       "maquillaje"
     ],
-    imagen: "miadistribuidora/imagenes/LabialMatteMaybelline.jpeg",
+    imagen: "imagenes/labialmattemaybelline.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -353,7 +353,7 @@ const PRODUCTOS = [
     categorias: [
       "maquillaje"
     ],
-    imagen: "miadistribuidora/imagenes/LabialMaybellineSuperstayVinyl.jpeg",
+    imagen: "imagenes/labialmaybellinesuperstayvinyl.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -366,7 +366,7 @@ const PRODUCTOS = [
     categorias: [
       "maquillaje"
     ],
-    imagen: "miadistribuidora/imagenes/CorrectorLOrealParis15AcidoHialuronico.jpeg",
+    imagen: "imagenes/correctorlorealparis15acidohialuronico.jpeg",
     descripcion: "",
     detalles: [],
     variante: {
@@ -386,7 +386,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/ImprontaTratamientoCapital5En1X250Gr.jpeg",
+    imagen: "imagenes/improntatratamientocapital5en1x250gr.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -399,7 +399,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/ProductosKarsell.jpeg",
+    imagen: "imagenes/productoskarsell.jpeg",
     descripcion: "",
     detalles: [],
     variante: {
@@ -424,7 +424,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/ShampooMatizadorLaPuissanceX300Ml.jpeg",
+    imagen: "imagenes/shampoomatizadorlapuissancex300ml.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -436,7 +436,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/ShampooYAcondicionadorLaPuissanceX300Ml.jpeg",
+    imagen: "imagenes/shampooyacondicionadorlapuissancex300ml.jpeg",
     descripcion: "",
     detalles: [],
     variante: {
@@ -455,7 +455,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/PerfumeCapilarLaPuissance.jpeg",
+    imagen: "imagenes/perfumecapilarlapuissance.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -468,7 +468,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/ShampooRevitalizanteAbsolutLOrealParisX300Ml.jpeg",
+    imagen: "imagenes/shampoorevitalizanteabsolutlorealparisx300ml.jpeg",
     descripcion: "Con quinoa dorada + proteína, la fórmula profesional del shampoo revitalizante instantáneo limpia inmediatamente y reestructura el cabello dañado, al tiempo que lo deja con un tacto ligero. Combinado con Absolut Repair acondicionador, mascarilla o mascarilla dorada, el cabello queda más brillante y liso.",
     detalles: [],
     variante: null,
@@ -481,7 +481,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/AcondicionadorParaCabelloDanadoLOrealParisX200Ml.jpeg",
+    imagen: "imagenes/acondicionadorparacabellodanadolorealparisx200ml.jpeg",
     descripcion: "Con QUINOA DORADA + PROTEÍNA, la fórmula profesional del acondicionador revitalizante instantáneo es el tratamiento perfecto para reestructurar inmediatamente el cabello dañado. Su fórmula cremosa nutre la fibra con un toque ligero. Después de utilizar Absolut Repair shampoo y acondicionador, el cabello está más brillante, liso y resistente, y la superficie capilar está menos dañada.",
     detalles: [],
     variante: null,
@@ -493,7 +493,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/AceiteOleoDePaltaLaPuissance.jpeg",
+    imagen: "imagenes/aceiteoleodepaltalapuissance.jpeg",
     descripcion: "Óleo diseñado para reparar puntas, controlar el encrespamiento y potenciar la nutrición del cabello. Su fórmula enriquecida con aceite de palta y ácidos grasos Omega 6 y 9 aporta una emoliencia intensa que hidrata desde el primer uso. Ayuda a proteger las puntas más dañadas, reduce los enredos y mejora visiblemente la suavidad, el brillo y el aspecto saludable del cabello, sin dejar sensación pesada.",
     detalles: [],
     variante: null,
@@ -505,7 +505,7 @@ const PRODUCTOS = [
     categorias: [
       "perfumes"
     ],
-    imagen: "miadistribuidora/imagenes/AcquaDiGioiaDeGiorgioArmaniX100Ml.jpeg",
+    imagen: "imagenes/acquadigioiadegiorgioarmanix100ml.jpeg",
     descripcion: "Acqua di Gioia de Giorgio Armani es una fragancia de la familia olfativa Floral Acuática para Mujeres. Las Notas de Salida son limón de Amalfi (lima de Amalfi) y menta; la Nota de Corazón es jazmín de agua; las Notas de Fondo son cedro de Virginia, azúcar moreno y ládano francés.",
     detalles: [],
     variante: null,
@@ -517,7 +517,7 @@ const PRODUCTOS = [
     categorias: [
       "maquillaje"
     ],
-    imagen: "miadistribuidora/imagenes/ShineKillerPrimerX20ml.jpeg",
+    imagen: "imagenes/shinekillerprimerx20ml.jpeg",
     descripcion: "Tu aliado perfecto en la guerra contra los brillos. Suaviza el rostro antes de aplicar tu prebase de maquillaje favorita con un maravilloso acabado mate y fresco. Aplica una cantidad una pequeña cantidad directamente en el rostro con una brocha o los dedos. Espera unos minutos antes de aplicar la base de maquillaje.",
     detalles: [],
     variante: null,
@@ -529,7 +529,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/AcondicionadorAnticaidaKarsellX500Ml.jpeg",
+    imagen: "imagenes/acondicionadoranticaidakarsellx500ml.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -541,7 +541,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/MascaraNutritivaLaPuissanceX250Ml.jpeg",
+    imagen: "imagenes/mascaranutritivalapuissancex250ml.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -554,7 +554,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/SerumTripleAccionAntiSignosDeEdadLOrealParis.jpeg",
+    imagen: "imagenes/serumtripleaccionantisignosdeedadlorealparis.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -567,7 +567,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/SerumAntiManchasLOrealParis.jpeg",
+    imagen: "imagenes/serumantimanchaslorealparis.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -579,7 +579,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/GelLimpiezaProfundaLOrealParis.jpeg",
+    imagen: "imagenes/gellimpiezaprofundalorealparis.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -591,7 +591,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/LimpiadorPurificanteAntiImperfeccionesGarnierX200Ml.jpeg",
+    imagen: "imagenes/limpiadorpurificanteantiimperfeccionesgarnierx200ml.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -603,7 +603,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/GlassSkinCremaLiquidaLOrealParis.jpeg",
+    imagen: "imagenes/glassskincremaliquidalorealparis.jpeg",
     descripcion: "100 hs de hidratacion y luminosidad. Reduce lineas de expresión.",
     detalles: [],
     variante: null,
@@ -615,7 +615,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/BarraAntitranspiranteCoconutSecretX45Gr.jpeg",
+    imagen: "imagenes/barraantitranspirantecoconutsecretx45gr.jpeg",
     descripcion: "Barra invisible antitranspirante, aplicación seca",
     detalles: [],
     variante: null,
@@ -628,7 +628,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/FotoprotectorUVISDINFPS50.jpeg",
+    imagen: "imagenes/fotoprotectoruvisdinfps50.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -641,7 +641,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/ProtectorInvisibleVichyFPS50FluidoHidratante.jpeg",
+    imagen: "imagenes/protectorinvisiblevichyfps50fluidohidratante.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -654,7 +654,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/ProtectorFluidoInvisibleCeraVeFPS50X50Ml.jpeg",
+    imagen: "imagenes/protectorfluidoinvisibleceravefps50x50ml.jpeg",
     descripcion: "Protector Solar facial diario ligero e hidratante que ayuda a mantener la barrera cutanea.",
     detalles: [],
     variante: null,
@@ -667,7 +667,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/ProtectorSolarFacialAvenoFPS50X50Gr.jpeg",
+    imagen: "imagenes/protectorsolarfacialavenofps50x50gr.jpeg",
     descripcion: "Alta proteccion avalado por dermatologos, hipoalergénico y resistente al agua. Pieles sensibles, acabado sedoso no graso y textura ultra ligera",
     detalles: [],
     variante: null,
@@ -680,7 +680,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/ProtectorSolarUVSportLaRochePosayFPS50.jpeg",
+    imagen: "imagenes/protectorsolaruvsportlarocheposayfps50.jpeg",
     descripcion: "Muy alta proteccion. Muy resistente y facil de aplicar sobre la piel humeda y sudorosa.",
     detalles: [],
     variante: null,
@@ -693,7 +693,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/ProtectorSolarFacialConColorFPS45Bagovit.jpeg",
+    imagen: "imagenes/protectorsolarfacialconcolorfps45bagovit.jpeg",
     descripcion: "Crema Facial con color. Provee una apariencia bronceada en la piel. Previene arrugas y manchas solares.",
     detalles: [],
     variante: null,
@@ -705,7 +705,7 @@ const PRODUCTOS = [
     categorias: [
       "capilares"
     ],
-    imagen: "miadistribuidora/imagenes/TratamientoCapilarRepairAbsoluteLOrealParis.jpeg",
+    imagen: "imagenes/tratamientocapilarrepairabsolutelorealparis.jpeg",
     descripcion: "Este shampoo patentado, formulado con adhesivo de péptidos y 5 aminoácidos, repara la estructura macromolecular del cabello.Sin sulfatos, la textura lujosa de la fórmula se transforma en una espuma rica que limpia, desenreda el cabello y proporciona un alto nivel de cuidado.El cabello está más fuerte y nutrido, con elasticidad mejorada, movimiento y +86;% de suavidad.",
     detalles: [],
     variante: null,
@@ -718,7 +718,7 @@ const PRODUCTOS = [
       "skincare",
       "protectores-solares"
     ],
-    imagen: "miadistribuidora/imagenes/BarraCeraVeStickSolarInvisible.jpeg",
+    imagen: "imagenes/barraceravesticksolarinvisible.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -731,7 +731,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/CremaCorporalTripleEffectEucerin.jpeg",
+    imagen: "imagenes/cremacorporaltripleeffecteucerin.jpeg",
     descripcion: "Crema Para pieles grasas + Manchas post-acne",
     detalles: [
       "Anti-Imperfecciones.",
@@ -748,7 +748,7 @@ const PRODUCTOS = [
     categorias: [
       "perfumes"
     ],
-    imagen: "miadistribuidora/imagenes/SprayAllBodyYara150Ml.jpeg",
+    imagen: "imagenes/sprayallbodyyara150ml.jpeg",
     descripcion: "",
     detalles: [],
     variante: null,
@@ -761,7 +761,7 @@ const PRODUCTOS = [
     categorias: [
       "skincare"
     ],
-    imagen: "miadistribuidora/imagenes/MadagascarCentellaPoremizingMask.jpeg",
+    imagen: "imagenes/madagascarcentellaporemizingmask.jpeg",
     descripcion: "Madagascar Centella Poremizing Quick Clay Stick Mask de SKIN1004 es una mascarilla facial en formato stick que ayuda a limpiar profundamente los poros, absorber el exceso de oleosidad y dejar la piel más suave y equilibrada, de una forma práctica y sin complicaciones. Su fórmula combina Arcillas Naturales y Extracto de Centella Asiática de Madagascar, ingredientes que ayudan a eliminar impurezas, reducir la apariencia de los poros y calmar la piel mientras mantienen su hidratación natural. Gracias a su innovador formato en barra, se aplica de manera uniforme, sin ensuciar las manos y con una textura cremosa que se enjuaga fácilmente, convirtiéndose en el complemento ideal para una rutina de limpieza profunda.",
     detalles: [],
     variante: null,
@@ -773,8 +773,8 @@ const PRODUCTOS = [
     nombre: "Labial Filler Revol",
     precio: 21900,
     categorias: ["skincare"],
-    imagen: "miadistribuidora/imagenes/lipfillerrevox.jpeg",
-    imagenAlt: ["imagenes/lipfillerrevox.png", "imagenes/lipfillerrevox.JPG", "imagenes/lipfillerrevox.JPEG", "imagenes/lipfillerrevox.webp"],
+    imagen: "imagenes/lipfillerrevox.jpeg",
+    imagenalt: ["imagenes/lipfillerrevox.png", "imagenes/lipfillerrevox.jpg", "imagenes/lipfillerrevox.jpeg", "imagenes/lipfillerrevox.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -785,7 +785,7 @@ const PRODUCTOS = [
     precio: 15000,
     categorias: ["skincare"],
     imagen: "imagenes/jabonuniformskindove.jpeg",
-    imagenAlt: ["imagenes/jabonuniformskindove.png", "imagenes/jabonuniformskindove.JPG", "imagenes/jabonuniformskindove.JPEG", "imagenes/jabonuniformskindove.webp"],
+    imagenalt: ["imagenes/jabonuniformskindove.png", "imagenes/jabonuniformskindove.jpg", "imagenes/jabonuniformskindove.jpeg", "imagenes/jabonuniformskindove.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -796,7 +796,7 @@ const PRODUCTOS = [
     precio: 23000,
     categorias: ["skincare"],
     imagen: "imagenes/aguamicelarlimpiadoracerave.jpeg",
-    imagenAlt: ["imagenes/aguamicelarlimpiadoracerave.png", "imagenes/aguamicelarlimpiadoracerave.JPG", "imagenes/aguamicelarlimpiadoracerave.JPEG", "imagenes/aguamicelarlimpiadoracerave.webp"],
+    imagenalt: ["imagenes/aguamicelarlimpiadoracerave.png", "imagenes/aguamicelarlimpiadoracerave.jpg", "imagenes/aguamicelarlimpiadoracerave.jpeg", "imagenes/aguamicelarlimpiadoracerave.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -806,8 +806,8 @@ const PRODUCTOS = [
     nombre: "Serum Pure Vitamin C10 La Roche Posay",
     precio: 69000,
     categorias: ["skincare"],
-    imagen: "imagenes/serumpurevitaminC10.jpeg",
-    imagenAlt: ["imagenes/serumpurevitaminC10.png", "imagenes/serumpurevitaminC10.JPG", "imagenes/serumpurevitaminC10.JPEG", "imagenes/serumpurevitaminC10.webp"],
+    imagen: "imagenes/serumpurevitaminc10.jpeg",
+    imagenalt: ["imagenes/serumpurevitaminc10.png", "imagenes/serumpurevitaminc10.jpg", "imagenes/serumpurevitaminc10.jpeg", "imagenes/serumpurevitaminc10.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -818,7 +818,7 @@ const PRODUCTOS = [
     precio: 69000,
     categorias: ["skincare"],
     imagen: "imagenes/serumretinolb3laroche.jpeg",
-    imagenAlt: ["imagenes/serumretinolb3laroche.png", "imagenes/serumretinolb3laroche.JPG", "imagenes/serumretinolb3laroche.JPEG", "imagenes/serumretinolb3laroche.webp"],
+    imagenalt: ["imagenes/serumretinolb3laroche.png", "imagenes/serumretinolb3laroche.jpg", "imagenes/serumretinolb3laroche.jpeg", "imagenes/serumretinolb3laroche.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -829,7 +829,7 @@ const PRODUCTOS = [
     precio: 69000,
     categorias: ["skincare"],
     imagen: "imagenes/serumhyalub5laroche.jpeg",
-    imagenAlt: ["imagenes/serumhyalub5laroche.png", "imagenes/serumhyalub5laroche.JPG", "imagenes/serumhyalub5laroche.JPEG", "imagenes/serumhyalub5laroche.webp"],
+    imagenalt: ["imagenes/serumhyalub5laroche.png", "imagenes/serumhyalub5laroche.jpg", "imagenes/serumhyalub5laroche.jpeg", "imagenes/serumhyalub5laroche.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -840,7 +840,7 @@ const PRODUCTOS = [
     precio: 69000,
     categorias: ["skincare"],
     imagen: "imagenes/crematoleriane.jpeg",
-    imagenAlt: ["imagenes/crematoleriane.png", "imagenes/crematoleriane.JPG", "imagenes/crematoleriane.JPEG", "imagenes/crematoleriane.webp"],
+    imagenalt: ["imagenes/crematoleriane.png", "imagenes/crematoleriane.jpg", "imagenes/crematoleriane.jpeg", "imagenes/crematoleriane.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -851,7 +851,7 @@ const PRODUCTOS = [
     precio: 65000,
     categorias: ["skincare"],
     imagen: "imagenes/cremamelab3laroche.jpeg",
-    imagenAlt: ["imagenes/cremamelab3laroche.png", "imagenes/cremamelab3laroche.JPG", "imagenes/cremamelab3laroche.JPEG", "imagenes/cremamelab3laroche.webp"],
+    imagenalt: ["imagenes/cremamelab3laroche.png", "imagenes/cremamelab3laroche.jpg", "imagenes/cremamelab3laroche.jpeg", "imagenes/cremamelab3laroche.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -862,7 +862,7 @@ const PRODUCTOS = [
     precio: 30000,
     categorias: ["skincare"],
     imagen: "imagenes/balsamocicaplastreparador.jpeg",
-    imagenAlt: ["imagenes/balsamocicaplastreparador.png", "imagenes/balsamocicaplastreparador.JPG", "imagenes/balsamocicaplastreparador.JPEG", "imagenes/balsamocicaplastreparador.webp"],
+    imagenalt: ["imagenes/balsamocicaplastreparador.png", "imagenes/balsamocicaplastreparador.jpg", "imagenes/balsamocicaplastreparador.jpeg", "imagenes/balsamocicaplastreparador.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -873,7 +873,7 @@ const PRODUCTOS = [
     precio: 25000,
     categorias: ["skincare"],
     imagen: "imagenes/gelhidrataciondiariadermaglos.jpeg",
-    imagenAlt: ["imagenes/gelhidrataciondiariadermaglos.png", "imagenes/gelhidrataciondiariadermaglos.JPG", "imagenes/gelhidrataciondiariadermaglos.JPEG", "imagenes/gelhidrataciondiariadermaglos.webp"],
+    imagenalt: ["imagenes/gelhidrataciondiariadermaglos.png", "imagenes/gelhidrataciondiariadermaglos.jpg", "imagenes/gelhidrataciondiariadermaglos.jpeg", "imagenes/gelhidrataciondiariadermaglos.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -884,7 +884,7 @@ const PRODUCTOS = [
     precio: 25000,
     categorias: ["skincare"],
     imagen: "imagenes/cremagelpararojecesdermaglos.jpeg",
-    imagenAlt: ["imagenes/cremagelpararojecesdermaglos.png", "imagenes/cremagelpararojecesdermaglos.JPG", "imagenes/cremagelpararojecesdermaglos.JPEG", "imagenes/cremagelpararojecesdermaglos.webp"],
+    imagenalt: ["imagenes/cremagelpararojecesdermaglos.png", "imagenes/cremagelpararojecesdermaglos.jpg", "imagenes/cremagelpararojecesdermaglos.jpeg", "imagenes/cremagelpararojecesdermaglos.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -895,7 +895,7 @@ const PRODUCTOS = [
     precio: 25000,
     categorias: ["skincare"],
     imagen: "imagenes/serumvitaminacdermaglos.jpeg",
-    imagenAlt: ["imagenes/serumvitaminacdermaglos.png", "imagenes/serumvitaminacdermaglos.JPG", "imagenes/serumvitaminacdermaglos.JPEG", "imagenes/serumvitaminacdermaglos.webp"],
+    imagenalt: ["imagenes/serumvitaminacdermaglos.png", "imagenes/serumvitaminacdermaglos.jpg", "imagenes/serumvitaminacdermaglos.jpeg", "imagenes/serumvitaminacdermaglos.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -905,8 +905,8 @@ const PRODUCTOS = [
     nombre: "Serum Tratamiento Capilar TRESemme",
     precio: 19900,
     categorias: ["capilares"],
-    imagen: "imagenes/serumtratamientocapilarTRESemme.jpeg",
-    imagenAlt: ["imagenes/serumtratamientocapilarTRESemme.png", "imagenes/serumtratamientocapilarTRESemme.JPG", "imagenes/serumtratamientocapilarTRESemme.JPEG", "imagenes/serumtratamientocapilarTRESemme.webp"],
+    imagen: "imagenes/serumtratamientocapilartresemme.jpeg",
+    imagenalt: ["imagenes/serumtratamientocapilartresemme.png", "imagenes/serumtratamientocapilartresemme.jpg", "imagenes/serumtratamientocapilartresemme.jpeg", "imagenes/serumtratamientocapilartresemme.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -917,7 +917,7 @@ const PRODUCTOS = [
     precio: 15000,
     categorias: ["skincare"],
     imagen: "imagenes/doveacnecontrol.jpeg",
-    imagenAlt: ["imagenes/doveacnecontrol.png", "imagenes/doveacnecontrol.JPG", "imagenes/doveacnecontrol.JPEG", "imagenes/doveacnecontrol.webp"],
+    imagenalt: ["imagenes/doveacnecontrol.png", "imagenes/doveacnecontrol.jpg", "imagenes/doveacnecontrol.jpeg", "imagenes/doveacnecontrol.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -928,7 +928,7 @@ const PRODUCTOS = [
     precio: 19900,
     categorias: ["capilares"],
     imagen: "imagenes/fructisgarnier.jpeg",
-    imagenAlt: ["imagenes/fructisgarnier.png", "imagenes/fructisgarnier.JPG", "imagenes/fructisgarnier.JPEG", "imagenes/fructisgarnier.webp"],
+    imagenalt: ["imagenes/fructisgarnier.png", "imagenes/fructisgarnier.jpg", "imagenes/fructisgarnier.jpeg", "imagenes/fructisgarnier.webp"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -940,7 +940,7 @@ const PRODUCTOS = [
     precio: 4500,
     categorias: ["skincare"],
     imagen: "imagenes/mascarillasbubaluu.jpeg",
-    imagenAlt: ["imagenes/mascarillasbubaluu.png", "imagenes/mascarillasbubaluu.JPG"],
+    imagenalt: ["imagenes/mascarillasbubaluu.png", "imagenes/mascarillasbubaluu.jpg"],
     descripcion: "",
     detalles: [],
     variante: { nombre: "Tipo", opciones: ["Sandia", "Piña", "Multifruta"] },
@@ -952,7 +952,7 @@ const PRODUCTOS = [
     precio: 12000,
     categorias: ["capilares"],
     imagen: "imagenes/biotinapura.jpeg",
-    imagenAlt: ["imagenes/biotinapura.png", "imagenes/biotinapura.JPG"],
+    imagenalt: ["imagenes/biotinapura.png", "imagenes/biotinapura.jpg"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -964,7 +964,7 @@ const PRODUCTOS = [
     precio: 6500,
     categorias: ["capilares"],
     imagen: "imagenes/nutripro.jpeg",
-    imagenAlt: ["imagenes/nutripro.png", "imagenes/nutripro.JPG"],
+    imagenalt: ["imagenes/nutripro.png", "imagenes/nutripro.jpg"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -976,7 +976,7 @@ const PRODUCTOS = [
     precio: 6500,
     categorias: ["capilares"],
     imagen: "imagenes/oleocristalliquido.jpeg",
-    imagenAlt: ["imagenes/oleocristalliquido.png", "imagenes/oleocristalliquido.JPG"],
+    imagenalt: ["imagenes/oleocristalliquido.png", "imagenes/oleocristalliquido.jpg"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -988,7 +988,7 @@ const PRODUCTOS = [
     precio: 19500,
     categorias: ["skincare"],
     imagen: "imagenes/yummygelato.jpeg",
-    imagenAlt: ["imagenes/yummygelato.png", "imagenes/yummygelato.JPG"],
+    imagenalt: ["imagenes/yummygelato.png", "imagenes/yummygelato.jpg"],
     descripcion: "",
     detalles: [],
     variante: { nombre: "Tipo", opciones: ["Gelato", "Choco"] },
@@ -1000,7 +1000,7 @@ const PRODUCTOS = [
     precio: 4500,
     categorias: ["skincare"],
     imagen: "imagenes/aguamicelaralgabo.jpeg",
-    imagenAlt: ["imagenes/aguamicelaralgabo.png", "imagenes/aguamicelaralgabo.JPG"],
+    imagenalt: ["imagenes/aguamicelaralgabo.png", "imagenes/aguamicelaralgabo.jpg"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -1012,7 +1012,7 @@ const PRODUCTOS = [
     precio: 4500,
     categorias: ["maquillaje"],
     imagen: "imagenes/balsamoduraznobubbaluu.jpeg",
-    imagenAlt: ["imagenes/balsamoduraznobubbaluu.png", "imagenes/balsamoduraznobubbaluu.JPG"],
+    imagenalt: ["imagenes/balsamoduraznobubbaluu.png", "imagenes/balsamoduraznobubbaluu.jpg"],
     descripcion: "",
     detalles: [],
     variante: null,
@@ -1024,7 +1024,7 @@ const PRODUCTOS = [
     precio: 25000,
     categorias: ["maquillaje"],
     imagen: "imagenes/panoramalorealparis.jpeg",
-    imagenAlt: ["imagenes/panoramalorealparis.png", "panoramalorealparis.JPG"],
+    imagenalt: ["imagenes/panoramalorealparis.png", "panoramalorealparis.jpg"],
     descripcion: "",
     detalles: [],
     variante: null,
