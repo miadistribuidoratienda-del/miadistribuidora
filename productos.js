@@ -20,7 +20,7 @@ const PRODUCTOS = [
     nombre: "Protector Solar Corporal Dermaglós",
     precio: 19000,
     categorias: ["skincare", "protectores-solares"],
-    imagen: "miadistribuidora/imagenes/ProtectorSolarDermaglos.jpeg",
+    imagen: "miadistribuidora/imagenes/protectorsolardermaglos.jpeg",
     descripcion: "Protector solar corporal FPS 50 con protección alta contra rayos UVB y UVA. Hidrata con vitamina E y es apto para piel sensible.",
     detalles: [
       "Protección alta FPS 50 (UVB y UVA)",
@@ -58,7 +58,7 @@ const PRODUCTOS = [
     nombre: "Protector Solar en Barra Celimax Oil Control",
     precio: 45000,
     categorias: ["skincare", "protectores-solares"],
-    imagen: "miadistribuidora/imagenes/SunStickCelimax.jpeg",
+    imagen: "miadistribuidora/imagenes/sunstickcelimax.jpeg",
     descripcion: "Protector solar en barra de Celimax con efecto mate, pensado para piel mixta o grasa. Fácil de aplicar y de llevar a todos lados.",
     detalles: [
       "FPS 50+ / PA++++",
@@ -73,7 +73,7 @@ const PRODUCTOS = [
     nombre: "Protector Solar Bagovit Solar Emulsión Hidratante",
     precio: 18000,
     categorias: ["skincare", "protectores-solares"],
-    imagen: "miadistribuidora/imagenes/BagovitSolar.jpeg",
+    imagen: "miadistribuidora/imagenes/bagovitsolar.jpeg",
     descripcion: "Emulsión hidratante de textura liviana con protección solar alta contra rayos UV-B y UV-A. Disponible en FPS 30 y FPS 50.",
     detalles: [
       "Protección solar alta UV-B y UV-A",
