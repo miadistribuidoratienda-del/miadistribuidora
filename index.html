@@ -32,10 +32,14 @@
   <div id="layout-pie"></div>
   <script src="productos.js"></script>
   <script src="stock.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-  <script src="firebase-stock.js"></script>
   <script src="testimonios.js"></script>
-  <script src="script.js"></script>
+  <script>
+  (async () => {
+    try { await cargarStockDesdeHoja(); } catch (e) { console.warn(e); }
+    const s = document.createElement("script");
+    s.src = "script.js";
+    document.body.appendChild(s);
+  })();
+</script>
 </body>
 </html>

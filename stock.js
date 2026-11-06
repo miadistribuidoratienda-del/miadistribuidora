@@ -92,3 +92,23 @@ const STOCK = {
   "balsamodurazno": 1,
   "panoramaloreal": 1,
 };
+
+const URL_HOJA = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRg_KI7a-M2oYiuvoOjn0Zt18kgh-90ot-W2AjjpDihPqJ4tEVJinPy-gZ_jDbspqShZ7fIjFBeE8Z2/pub?gid=1075255161&single=true&output=csv";
+
+async function cargarStockDesdeHoja() {
+  const res = await fetch(URL_HOJA + (URL_HOJA.includes("?") ? "&" : "?") + "t=" + Date.now());
+  if (!res.ok) throw new Error("No se pudo leer la hoja");
+  const filas = (await res.text()).trim().split(/\r?\n/).slice(1); // saltea el encabezado
+  const nuevo = {};
+  for (const fila of filas) {
+    const [id, variante, stock] = fila.split(",").map((c) => c.replace(/^"|"$/g, "").trim());
+    if (!id) continue;
+    const n = Math.max(0, parseInt(stock, 10) || 0);
+    if (variante) { if (typeof nuevo[id] !== "object") nuevo[id] = {}; nuevo[id][variante] = n; }
+    else nuevo[id] = n;
+  }
+  if (Object.keys(nuevo).length) {
+    for (const k of Object.keys(STOCK)) delete STOCK[k];
+    Object.assign(STOCK, nuevo);
+  }
+}
